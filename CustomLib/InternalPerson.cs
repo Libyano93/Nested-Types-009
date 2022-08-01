@@ -1,6 +1,7 @@
 ﻿namespace CustomLib
 {
-    public class InternalPerson
+    internal class InternalPerson
     {
+
     }
 }

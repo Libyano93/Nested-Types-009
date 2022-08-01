@@ -1,5 +1,5 @@
 ﻿using System;
-using CustomLib;
+
 
 namespace Nested_Types
 {
@@ -7,10 +7,24 @@ namespace Nested_Types
     {
         static void Main(string[] args)
         {
-            Person p = new Person();
+         
 
-            //InternalPerson internalPerson = new InternalPerson(); // You Can't Used it  Out Of Libery
             Console.ReadKey();
         }
     }
+
+    class Person
+    {
+        private int x;
+        public int y;
+    }
+
+    class A
+    {
+        class B
+        {
+
+        }
+    }
+  
 }
